@@ -835,6 +835,52 @@
             <mxPoint x="2668.7999999999997" y="1732.8" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="layer_flow" value="動線建議" parent="0" />
+        <mxCell id="f_in" value="進貨↑" style="endArrow=classic;html=1;rounded=0;strokeColor=#2E7D32;strokeWidth=9;fontColor=#2E7D32;fontSize=26;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="layer_flow">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="1660" as="sourcePoint" />
+            <mxPoint x="1075" y="1462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_out" value="出貨↓" style="endArrow=classic;html=1;rounded=0;strokeColor=#E65100;strokeWidth=9;fontColor=#E65100;fontSize=26;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="layer_flow">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2558" y="1462" as="sourcePoint" />
+            <mxPoint x="2558" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_spine" value="底部主幹　單向（左 → 右）" style="endArrow=classic;html=1;rounded=0;strokeColor=#1565C0;strokeWidth=9;fontColor=#1565C0;fontSize=30;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="layer_flow">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="1392" as="sourcePoint" />
+            <mxPoint x="2548" y="1392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_aisleL" value="單線單車" style="endArrow=classic;html=1;rounded=0;strokeColor=#546E7A;strokeWidth=6;fontColor=#546E7A;fontSize=24;fontStyle=1;labelBackgroundColor=#ffffff;startArrow=classic;dashed=1;dashPattern=10 8;" edge="1" parent="layer_flow">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1176" y="1305" as="sourcePoint" />
+            <mxPoint x="1176" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_aisleR" value="單線單車" style="endArrow=classic;html=1;rounded=0;strokeColor=#546E7A;strokeWidth=6;fontColor=#546E7A;fontSize=24;fontStyle=1;labelBackgroundColor=#ffffff;startArrow=classic;dashed=1;dashPattern=10 8;" edge="1" parent="layer_flow">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2501" y="1305" as="sourcePoint" />
+            <mxPoint x="2501" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_clearL" value="後門口&lt;br&gt;淨空" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F57F17;strokeWidth=4;fontColor=#F57F17;fontSize=22;fontStyle=1;verticalAlign=top;align=center;dashed=1;dashPattern=8 8;" vertex="1" parent="layer_flow">
+          <mxGeometry x="985" y="1462" width="180" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="f_clearR" value="前門口&lt;br&gt;淨空" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F57F17;strokeWidth=4;fontColor=#F57F17;fontSize=22;fontStyle=1;verticalAlign=top;align=center;dashed=1;dashPattern=8 8;" vertex="1" parent="layer_flow">
+          <mxGeometry x="2466" y="1462" width="180" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="f_bufIn" value="◀ 進貨暫存區（後門側）" style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#2E7D32;fontSize=26;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="layer_flow">
+          <mxGeometry x="100" y="1600" width="470" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="f_bufOut" value="出貨暫存區（前門側）▶" style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#E65100;fontSize=26;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="layer_flow">
+          <mxGeometry x="1980" y="1655" width="470" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="f_legend" value="【動線建議圖層｜可於 draw.io 圖層面板單獨開關或刪除】&lt;br&gt;綠＝進貨(後門進)　橘＝出貨(前門出)　藍＝底部主幹單向(左→右)　灰虛線＝縱走道單線單車(進退同道)&lt;br&gt;棧板110cm／走道130cm：兩台無法交會，故走道一次僅一台、進去服務後原道退回主幹&lt;br&gt;門口淨空區請勿堆放（保留整趟貨梯量的暫存）；行進避開門旁 72cm 柱之迴轉盲點" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#C0A000;strokeWidth=2;fontColor=#333333;fontSize=28;align=left;verticalAlign=middle;spacing=10;" vertex="1" parent="layer_flow">
+          <mxGeometry x="86" y="-300" width="2100" height="240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
