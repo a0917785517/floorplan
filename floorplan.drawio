@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" type="device" version="24.0.0">
+  <diagram id="floorplan-main" name="平面圖">
+    <mxGraphModel dx="900" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="850" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+
+        <!-- ===== 圖層：rooms（房間與牆體） ===== -->
+        <mxCell id="layer_rooms" value="rooms" parent="0" />
+        <mxCell id="room_living" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=15;" parent="layer_rooms" vertex="1">
+          <mxGeometry x="0" y="0" width="420" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="room_dining" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=15;" parent="layer_rooms" vertex="1">
+          <mxGeometry x="420" y="0" width="280" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="room_master" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=15;" parent="layer_rooms" vertex="1">
+          <mxGeometry x="0" y="380" width="360" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="room_bedroom2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=15;" parent="layer_rooms" vertex="1">
+          <mxGeometry x="360" y="380" width="190" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="room_bath" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=15;" parent="layer_rooms" vertex="1">
+          <mxGeometry x="550" y="380" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="room_kitchen" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=15;" parent="layer_rooms" vertex="1">
+          <mxGeometry x="550" y="540" width="150" height="160" as="geometry" />
+        </mxCell>
+
+        <!-- ===== 圖層：doors（門與開門弧線） ===== -->
+        <mxCell id="layer_doors" value="doors" parent="0" />
+        <!-- 客廳：下牆 offset 160 寬 90，向室內（上）開 -->
+        <mxCell id="door_living" value="" style="shape=mxgraph.floorplan.doorRight;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;direction=north;" parent="layer_doors" vertex="1">
+          <mxGeometry x="160" y="290" width="90" height="90" as="geometry" />
+        </mxCell>
+        <!-- 主臥：上牆 offset 150 寬 80，向室內（下）開 -->
+        <mxCell id="door_master" value="" style="shape=mxgraph.floorplan.doorLeft;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;direction=south;" parent="layer_doors" vertex="1">
+          <mxGeometry x="150" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <!-- 次臥：上牆 offset 60 寬 80，向室內（下）開 -->
+        <mxCell id="door_bedroom2" value="" style="shape=mxgraph.floorplan.doorRight;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;direction=south;" parent="layer_doors" vertex="1">
+          <mxGeometry x="420" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <!-- 衛浴：左牆 offset 40 寬 70，向室內（右）開 -->
+        <mxCell id="door_bath" value="" style="shape=mxgraph.floorplan.doorRight;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;direction=east;" parent="layer_doors" vertex="1">
+          <mxGeometry x="550" y="420" width="70" height="70" as="geometry" />
+        </mxCell>
+        <!-- 廚房：左牆 offset 50 寬 80，向室內（右）開 -->
+        <mxCell id="door_kitchen" value="" style="shape=mxgraph.floorplan.doorLeft;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;direction=east;" parent="layer_doors" vertex="1">
+          <mxGeometry x="550" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ===== 圖層：labels（房名 / 尺寸 / 面積） ===== -->
+        <mxCell id="layer_labels" value="labels" parent="0" />
+        <mxCell id="label_living" value="客廳&lt;br&gt;4.2 × 3.8 m&lt;br&gt;15.96 m² (4.83 坪)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;" parent="layer_labels" vertex="1">
+          <mxGeometry x="60" y="150" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="label_dining" value="餐廳&lt;br&gt;2.8 × 3.8 m&lt;br&gt;10.64 m² (3.22 坪)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;" parent="layer_labels" vertex="1">
+          <mxGeometry x="460" y="150" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="label_master" value="主臥&lt;br&gt;3.6 × 3.2 m&lt;br&gt;11.52 m² (3.48 坪)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;" parent="layer_labels" vertex="1">
+          <mxGeometry x="40" y="500" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="label_bedroom2" value="次臥&lt;br&gt;1.9 × 3.2 m&lt;br&gt;6.08 m² (1.84 坪)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;" parent="layer_labels" vertex="1">
+          <mxGeometry x="375" y="500" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="label_bath" value="衛浴&lt;br&gt;1.5 × 1.6 m&lt;br&gt;2.40 m² (0.73 坪)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="layer_labels" vertex="1">
+          <mxGeometry x="560" y="425" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="label_kitchen" value="廚房&lt;br&gt;1.5 × 1.6 m&lt;br&gt;2.40 m² (0.73 坪)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;" parent="layer_labels" vertex="1">
+          <mxGeometry x="560" y="585" width="130" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- ===== 圖層：dims（尺寸標註） ===== -->
+        <mxCell id="layer_dims" value="dims" parent="0" />
+        <!-- 總體外框標註 -->
+        <mxCell id="dim_total_w" value="總寬 700 cm" style="text;html=1;align=center;verticalAlign=bottom;fontSize=13;fontColor=#0066cc;" parent="layer_dims" vertex="1">
+          <mxGeometry x="250" y="-45" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dim_total_w_line" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066cc;" parent="layer_dims" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="-15" as="sourcePoint" />
+            <mxPoint x="700" y="-15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dim_total_h" value="總高 700 cm" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontColor=#0066cc;horizontal=0;" parent="layer_dims" vertex="1">
+          <mxGeometry x="-90" y="300" width="30" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dim_total_h_line" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0066cc;" parent="layer_dims" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="0" as="sourcePoint" />
+            <mxPoint x="-15" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- 上排隔間 420 / 280 -->
+        <mxCell id="dim_top_living" value="420" style="text;html=1;align=center;fontSize=11;fontColor=#0066cc;" parent="layer_dims" vertex="1">
+          <mxGeometry x="180" y="-40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dim_top_dining" value="280" style="text;html=1;align=center;fontSize=11;fontColor=#0066cc;" parent="layer_dims" vertex="1">
+          <mxGeometry x="530" y="-40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <!-- 中排隔間 360 / 190 / 150 -->
+        <mxCell id="dim_mid_master" value="360" style="text;html=1;align=center;fontSize=11;fontColor=#0066cc;" parent="layer_dims" vertex="1">
+          <mxGeometry x="150" y="705" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dim_mid_bedroom2" value="190" style="text;html=1;align=center;fontSize=11;fontColor=#0066cc;" parent="layer_dims" vertex="1">
+          <mxGeometry x="425" y="705" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dim_mid_service" value="150" style="text;html=1;align=center;fontSize=11;fontColor=#0066cc;" parent="layer_dims" vertex="1">
+          <mxGeometry x="595" y="705" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
