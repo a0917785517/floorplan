@@ -157,7 +157,7 @@
         <mxCell id="s150" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="825.6" y="878.4" as="geometry" />
         </mxCell>
-        <mxCell id="s151" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s151" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#E5E7EB;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="活性碳&lt;br&gt;270" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="931.2" y="878.4" as="geometry" />
         </mxCell>
         <mxCell id="s152" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
@@ -178,13 +178,13 @@
         <mxCell id="s157" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="614.4" y="984" as="geometry" />
         </mxCell>
-        <mxCell id="s158" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s158" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FDE2E2;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="鼻樑&lt;br&gt;壓條" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="720" y="984" as="geometry" />
         </mxCell>
-        <mxCell id="s159" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s159" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#F3E8FF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="耳帶&lt;br&gt;(混色)" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="825.6" y="984" as="geometry" />
         </mxCell>
-        <mxCell id="s160" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s160" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#F3E8FF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="耳帶&lt;br&gt;(混色)" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="931.2" y="984" as="geometry" />
         </mxCell>
         <mxCell id="s161" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
@@ -202,16 +202,16 @@
         <mxCell id="s165" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="508.8" y="1089.6" as="geometry" />
         </mxCell>
-        <mxCell id="s166" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s166" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#F3E8FF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="耳帶&lt;br&gt;(混色)" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="614.4" y="1089.6" as="geometry" />
         </mxCell>
-        <mxCell id="s167" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s167" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FCE7F3;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療TN95&lt;br&gt;包裝膜" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="720" y="1089.6" as="geometry" />
         </mxCell>
-        <mxCell id="s168" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s168" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="一般30入&lt;br&gt;彩盒" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="825.6" y="1089.6" as="geometry" />
         </mxCell>
-        <mxCell id="s169" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s169" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療30入&lt;br&gt;彩盒" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="931.2" y="1089.6" as="geometry" />
         </mxCell>
         <mxCell id="s170" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
@@ -226,19 +226,19 @@
         <mxCell id="s173" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="403.2" y="1195.2" as="geometry" />
         </mxCell>
-        <mxCell id="s174" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s174" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FDE2E2;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="鼻樑&lt;br&gt;壓條" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="508.8" y="1195.2" as="geometry" />
         </mxCell>
-        <mxCell id="s175" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s175" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FCE7F3;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療TN95&lt;br&gt;包裝膜" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="614.4" y="1195.2" as="geometry" />
         </mxCell>
-        <mxCell id="s176" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s176" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療30入&lt;br&gt;彩盒" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="720" y="1195.2" as="geometry" />
         </mxCell>
-        <mxCell id="s177" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s177" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療30入&lt;br&gt;彩盒" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="825.6" y="1195.2" as="geometry" />
         </mxCell>
-        <mxCell id="s178" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s178" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療30入&lt;br&gt;彩盒" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="931.2" y="1195.2" as="geometry" />
         </mxCell>
         <mxCell id="s179" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="黑泡&lt;br&gt;270" vertex="1">
@@ -532,49 +532,49 @@
         <mxCell id="s275" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="奶油白&lt;br&gt;300" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2294.4" y="792" as="geometry" />
         </mxCell>
-        <mxCell id="s276" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="奶油白&lt;br&gt;300" vertex="1">
+        <mxCell id="s276" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#E5E7EB;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="活性碳&lt;br&gt;300" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1238.4" y="897.6" as="geometry" />
         </mxCell>
         <mxCell id="s277" parent="layer_slide" style="whiteSpace=wrap;html=1;ellipse;fillColor=#F59E0B;strokeColor=none;align=left;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="11.52" width="11.52" x="1328.64" y="900.48" as="geometry" />
         </mxCell>
-        <mxCell id="s278" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#E5E7EB;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="活性碳&lt;br&gt;300" vertex="1">
+        <mxCell id="s278" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="奶油白&lt;br&gt;300" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1344" y="897.6" as="geometry" />
         </mxCell>
         <mxCell id="s279" parent="layer_slide" style="whiteSpace=wrap;html=1;ellipse;fillColor=#F59E0B;strokeColor=none;align=left;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="11.52" width="11.52" x="1434.24" y="900.48" as="geometry" />
         </mxCell>
-        <mxCell id="s280" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#E5E7EB;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="活性碳&lt;br&gt;270" vertex="1">
+        <mxCell id="s280" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1449.6" y="897.6" as="geometry" />
         </mxCell>
-        <mxCell id="s281" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#E5E7EB;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="活性碳&lt;br&gt;270" vertex="1">
+        <mxCell id="s281" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1555.2" y="897.6" as="geometry" />
         </mxCell>
         <mxCell id="s282" parent="layer_slide" style="whiteSpace=wrap;html=1;ellipse;fillColor=#F59E0B;strokeColor=none;align=left;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="11.52" width="11.52" x="1645.44" y="900.48" as="geometry" />
         </mxCell>
-        <mxCell id="s283" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FDE2E2;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="鼻樑&lt;br&gt;壓條" vertex="1">
+        <mxCell id="s283" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1660.8" y="897.6" as="geometry" />
         </mxCell>
-        <mxCell id="s284" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FDE2E2;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="鼻樑&lt;br&gt;壓條" vertex="1">
+        <mxCell id="s284" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1766.4" y="897.6" as="geometry" />
         </mxCell>
-        <mxCell id="s285" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FDE2E2;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="鼻樑&lt;br&gt;壓條" vertex="1">
+        <mxCell id="s285" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1872" y="897.6" as="geometry" />
         </mxCell>
         <mxCell id="s286" parent="layer_slide" style="whiteSpace=wrap;html=1;ellipse;fillColor=#F59E0B;strokeColor=none;align=left;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="11.52" width="11.52" x="1962.24" y="900.48" as="geometry" />
         </mxCell>
-        <mxCell id="s287" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#F3E8FF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="耳帶&lt;br&gt;(混色)" vertex="1">
+        <mxCell id="s287" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1977.6" y="897.6" as="geometry" />
         </mxCell>
-        <mxCell id="s288" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#F3E8FF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="耳帶&lt;br&gt;(混色)" vertex="1">
+        <mxCell id="s288" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2083.2" y="897.6" as="geometry" />
         </mxCell>
-        <mxCell id="s289" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#F3E8FF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="耳帶&lt;br&gt;(混色)" vertex="1">
+        <mxCell id="s289" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2188.8" y="897.6" as="geometry" />
         </mxCell>
-        <mxCell id="s290" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#F3E8FF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="耳帶&lt;br&gt;(混色)" vertex="1">
+        <mxCell id="s290" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2294.4" y="897.6" as="geometry" />
         </mxCell>
         <mxCell id="s291" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#F3E8FF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="耳帶&lt;br&gt;(混色)" vertex="1">
@@ -604,13 +604,13 @@
         <mxCell id="s299" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2294.4" y="1003.2" as="geometry" />
         </mxCell>
-        <mxCell id="s300" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s300" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療10入&lt;br&gt;開窗彩盒" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1238.4" y="1108.8" as="geometry" />
         </mxCell>
-        <mxCell id="s301" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s301" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="PM2.5&lt;br&gt;30入彩盒" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1344" y="1108.8" as="geometry" />
         </mxCell>
-        <mxCell id="s302" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s302" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FDE2E2;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="鼻樑&lt;br&gt;壓條" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1449.6" y="1108.8" as="geometry" />
         </mxCell>
         <mxCell id="s303" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
@@ -637,16 +637,16 @@
         <mxCell id="s310" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2294.4" y="1108.8" as="geometry" />
         </mxCell>
-        <mxCell id="s311" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s311" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療30入&lt;br&gt;彩盒" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1238.4" y="1214.4" as="geometry" />
         </mxCell>
-        <mxCell id="s312" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s312" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療10入&lt;br&gt;開窗彩盒" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1344" y="1214.4" as="geometry" />
         </mxCell>
-        <mxCell id="s313" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s313" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#F3E8FF;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="耳帶&lt;br&gt;(混色)" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1449.6" y="1214.4" as="geometry" />
         </mxCell>
-        <mxCell id="s314" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
+        <mxCell id="s314" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#E5E7EB;strokeColor=#444444;strokeWidth=1;fontSize=13;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="活性碳&lt;br&gt;270" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="1555.2" y="1214.4" as="geometry" />
         </mxCell>
         <mxCell id="s315" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
@@ -754,37 +754,37 @@
         <mxCell id="s349" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=none;strokeColor=none;fontSize=20;fontColor=#000000;fontFamily=Microsoft JhengHei;fontStyle=1;align=left;verticalAlign=middle;" value="已排 129板|空位 59格|預留 15板|總容量約 207板(彩盒/包裝膜以48箱/板換算)" vertex="1">
           <mxGeometry height="38.4" width="1920" x="57.6" y="1862.4" as="geometry" />
         </mxCell>
-        <mxCell id="s350" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療30入&lt;br&gt;彩盒" vertex="1">
+        <mxCell id="s350" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="158.4" as="geometry" />
         </mxCell>
-        <mxCell id="s351" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療30入&lt;br&gt;彩盒" vertex="1">
+        <mxCell id="s351" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="264" as="geometry" />
         </mxCell>
-        <mxCell id="s352" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療30入&lt;br&gt;彩盒" vertex="1">
+        <mxCell id="s352" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="369.6" as="geometry" />
         </mxCell>
-        <mxCell id="s353" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療30入&lt;br&gt;彩盒" vertex="1">
+        <mxCell id="s353" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="475.2" as="geometry" />
         </mxCell>
-        <mxCell id="s354" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療30入&lt;br&gt;彩盒" vertex="1">
+        <mxCell id="s354" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="580.8" as="geometry" />
         </mxCell>
-        <mxCell id="s355" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療10入&lt;br&gt;開窗彩盒" vertex="1">
+        <mxCell id="s355" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="686.4" as="geometry" />
         </mxCell>
-        <mxCell id="s356" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療10入&lt;br&gt;開窗彩盒" vertex="1">
+        <mxCell id="s356" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="792" as="geometry" />
         </mxCell>
-        <mxCell id="s357" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="一般30入&lt;br&gt;彩盒" vertex="1">
+        <mxCell id="s357" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="897.6" as="geometry" />
         </mxCell>
-        <mxCell id="s358" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFEDD5;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="PM2.5&lt;br&gt;30入彩盒" vertex="1">
+        <mxCell id="s358" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="1003.2" as="geometry" />
         </mxCell>
-        <mxCell id="s359" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FCE7F3;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療TN95&lt;br&gt;包裝膜" vertex="1">
+        <mxCell id="s359" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="1108.8" as="geometry" />
         </mxCell>
-        <mxCell id="s360" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FCE7F3;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="醫療TN95&lt;br&gt;包裝膜" vertex="1">
+        <mxCell id="s360" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#BBBBBB;strokeWidth=1;dashed=1;fontSize=13;fontColor=#BBBBBB;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="空" vertex="1">
           <mxGeometry height="105.6" width="105.6" x="2563.2" y="1214.4" as="geometry" />
         </mxCell>
         <mxCell id="s361" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FCE7F3;strokeColor=#444444;strokeWidth=1;fontSize=11;fontColor=#1A1A1A;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="一般N95&lt;br&gt;包裝膜" vertex="1">
@@ -835,53 +835,7 @@
             <mxPoint x="2668.7999999999997" y="1732.8" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="layer_flow" value="動線建議" parent="0" />
-        <mxCell id="f_in" value="進貨↑" style="endArrow=classic;html=1;rounded=0;strokeColor=#2E7D32;strokeWidth=9;fontColor=#2E7D32;fontSize=26;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="layer_flow">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1075" y="1660" as="sourcePoint" />
-            <mxPoint x="1075" y="1462" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f_out" value="出貨↓" style="endArrow=classic;html=1;rounded=0;strokeColor=#E65100;strokeWidth=9;fontColor=#E65100;fontSize=26;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="layer_flow">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2558" y="1462" as="sourcePoint" />
-            <mxPoint x="2558" y="1660" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f_spine" value="底部主幹　單向（左 → 右）" style="endArrow=classic;html=1;rounded=0;strokeColor=#1565C0;strokeWidth=9;fontColor=#1565C0;fontSize=30;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="layer_flow">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1075" y="1392" as="sourcePoint" />
-            <mxPoint x="2548" y="1392" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f_aisleL" value="單線單車" style="endArrow=classic;html=1;rounded=0;strokeColor=#546E7A;strokeWidth=6;fontColor=#546E7A;fontSize=24;fontStyle=1;labelBackgroundColor=#ffffff;startArrow=classic;dashed=1;dashPattern=10 8;" edge="1" parent="layer_flow">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1176" y="1305" as="sourcePoint" />
-            <mxPoint x="1176" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f_aisleR" value="單線單車" style="endArrow=classic;html=1;rounded=0;strokeColor=#546E7A;strokeWidth=6;fontColor=#546E7A;fontSize=24;fontStyle=1;labelBackgroundColor=#ffffff;startArrow=classic;dashed=1;dashPattern=10 8;" edge="1" parent="layer_flow">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2501" y="1305" as="sourcePoint" />
-            <mxPoint x="2501" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="f_clearL" value="後門口&lt;br&gt;淨空" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F57F17;strokeWidth=4;fontColor=#F57F17;fontSize=22;fontStyle=1;verticalAlign=top;align=center;dashed=1;dashPattern=8 8;" vertex="1" parent="layer_flow">
-          <mxGeometry x="985" y="1462" width="180" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="f_clearR" value="前門口&lt;br&gt;淨空" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F57F17;strokeWidth=4;fontColor=#F57F17;fontSize=22;fontStyle=1;verticalAlign=top;align=center;dashed=1;dashPattern=8 8;" vertex="1" parent="layer_flow">
-          <mxGeometry x="2466" y="1462" width="180" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="f_bufIn" value="◀ 進貨暫存區（後門側）" style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#2E7D32;fontSize=26;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="layer_flow">
-          <mxGeometry x="100" y="1600" width="470" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="f_bufOut" value="出貨暫存區（前門側）▶" style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#E65100;fontSize=26;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="layer_flow">
-          <mxGeometry x="1980" y="1655" width="470" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="f_legend" value="【動線建議圖層｜可於 draw.io 圖層面板單獨開關或刪除】&lt;br&gt;綠＝進貨(後門進)　橘＝出貨(前門出)　藍＝底部主幹單向(左→右)　灰虛線＝縱走道單線單車(進退同道)&lt;br&gt;棧板110cm／走道130cm：兩台無法交會，故走道一次僅一台、進去服務後原道退回主幹&lt;br&gt;門口淨空區請勿堆放（保留整趟貨梯量的暫存）；行進避開門旁 72cm 柱之迴轉盲點" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#C0A000;strokeWidth=2;fontColor=#333333;fontSize=28;align=left;verticalAlign=middle;spacing=10;" vertex="1" parent="layer_flow">
-          <mxGeometry x="86" y="-300" width="2100" height="240" as="geometry" />
-        </mxCell>
-      </root>
+        <mxCell id="layer_flow" value="動線建議" parent="0" /><mxCell id="f_door" parent="layer_flow" value="後門　進出貨（唯一出入口）" style="endArrow=classic;html=1;rounded=0;strokeColor=#2E7D32;strokeWidth=10;fontColor=#2E7D32;fontSize=30;fontStyle=1;labelBackgroundColor=#ffffff;startArrow=classic;" edge="1"><mxGeometry as="geometry" relative="1"><mxPoint x="1075" y="1660" as="sourcePoint" /><mxPoint x="1075" y="1450" as="targetPoint" /></mxGeometry></mxCell><mxCell id="f_frontX" parent="layer_flow" value="前門&lt;br&gt;停用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#C62828;strokeWidth=4;fontColor=#C62828;fontSize=26;fontStyle=1;verticalAlign=middle;align=center;dashed=1;dashPattern=8 8;" vertex="1"><mxGeometry as="geometry" x="2450" y="1452" width="190" height="190" /></mxCell><mxCell id="f_spine" parent="layer_flow" value="底部主幹通道（雙向）" style="endArrow=classic;html=1;rounded=0;strokeColor=#1565C0;strokeWidth=9;fontColor=#1565C0;fontSize=28;fontStyle=1;labelBackgroundColor=#ffffff;startArrow=classic;" edge="1"><mxGeometry as="geometry" relative="1"><mxPoint x="1075" y="1392" as="sourcePoint" /><mxPoint x="2540" y="1392" as="targetPoint" /></mxGeometry></mxCell><mxCell id="f_aisleL" parent="layer_flow" value="單線單車" style="endArrow=classic;html=1;rounded=0;strokeColor=#546E7A;strokeWidth=6;fontColor=#546E7A;fontSize=24;fontStyle=1;labelBackgroundColor=#ffffff;startArrow=classic;dashed=1;dashPattern=10 8;" edge="1"><mxGeometry as="geometry" relative="1"><mxPoint x="1176" y="1305" as="sourcePoint" /><mxPoint x="1176" y="250" as="targetPoint" /></mxGeometry></mxCell><mxCell id="f_aisleR" parent="layer_flow" value="單線單車" style="endArrow=classic;html=1;rounded=0;strokeColor=#546E7A;strokeWidth=6;fontColor=#546E7A;fontSize=24;fontStyle=1;labelBackgroundColor=#ffffff;startArrow=classic;dashed=1;dashPattern=10 8;" edge="1"><mxGeometry as="geometry" relative="1"><mxPoint x="2501" y="1305" as="sourcePoint" /><mxPoint x="2501" y="250" as="targetPoint" /></mxGeometry></mxCell><mxCell id="f_clear" parent="layer_flow" value="後門口&lt;br&gt;淨空" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F57F17;strokeWidth=4;fontColor=#F57F17;fontSize=22;fontStyle=1;verticalAlign=top;align=center;dashed=1;dashPattern=8 8;" vertex="1"><mxGeometry as="geometry" x="985" y="1450" width="180" height="150" /></mxCell><mxCell id="f_zoneA" parent="layer_flow" value="① 高頻區：醫療彩盒／包材（已調至最靠後門）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2E7D32;strokeWidth=5;fontColor=#2E7D32;fontSize=28;fontStyle=1;verticalAlign=top;align=center;dashed=1;dashPattern=8 8;" vertex="1"><mxGeometry as="geometry" x="480" y="858" width="1180" height="384" /></mxCell><mxCell id="f_zoneC" parent="layer_flow" value="③ 低頻・泡棉/色系・B01固定 → 移至最深處（遠門）" style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#8D6E63;fontSize=28;fontStyle=1;align=center;verticalAlign=middle;" vertex="1"><mxGeometry as="geometry" x="1900" y="300" width="760" height="120" /></mxCell><mxCell id="f_legend" parent="layer_flow" vertex="1" value="【動線建議圖層｜單一後門版｜可於 draw.io 圖層面板單獨開關或刪除】&lt;br&gt;前門停用 → 後門為唯一進出口：最高頻的「醫療彩盒/包材」已由最深處(原前門側)調到最靠後門的 ① 高頻區&lt;br&gt;泡棉/色系等低頻與 B01固定 留在遠門深處；棧板110/走道130，縱走道一次一台、進退同道&lt;br&gt;後門口淨空區勿堆放(留整趟貨梯量暫存)；行進避開門旁 72cm 柱之迴轉盲點" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#C0A000;strokeWidth=2;fontColor=#333333;fontSize=28;align=left;verticalAlign=middle;spacing=10;"><mxGeometry x="86" y="-300" width="2200" height="240" as="geometry" /></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>
