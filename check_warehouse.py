@@ -34,7 +34,7 @@ for c in root.iter('mxCell'):
     if c.get('vertex') != '1': continue
     x, y, w, h = (float(g.get('x', 0)), float(g.get('y', 0)),
                   float(g.get('width')), float(g.get('height')))
-    cells.append(dict(x=x, y=y, w=w, h=h, cx=x+w/2, cy=y+h/2,
+    cells.append(dict(idx=len(cells), x=x, y=y, w=w, h=h, cx=x+w/2, cy=y+h/2,
                       v=clean(c.get('value', '')), s=s, fill=gs(s, 'fillColor', 'none')))
 
 def is_pallet(c): return PAL_MIN <= c['w'] <= PAL_MAX and PAL_MIN <= c['h'] <= 155 and c['fill'] != 'none'
@@ -80,6 +80,21 @@ else:
     intruders = [c for c in storage if overlap(c, m)]
     check(len(intruders) == 0, f'主幹道淨空: {"OK" if not intruders else str(len(intruders))+" 格料侵入"}')
     check(m['w'] >= AISLE_MIN_PX, f'主幹道寬度 = {m["w"]/PXCM:.0f}cm (需 ≥130)')
+
+# --- 8.9 柱不重疊 / 棧板不重疊 / 固定物在最上層 / 外牆 ---
+def ov(a, b):
+    return not (a['x']+a['w'] <= b['x'] or b['x']+b['w'] <= a['x'] or
+                a['y']+a['h'] <= b['y'] or b['y']+b['h'] <= a['y'])
+pil_ov = [(p, s) for p in pillars for s in storage if ov(p, s)]
+check(len(pil_ov) == 0, f'柱不與棧板重疊: {"OK" if not pil_ov else str(len(pil_ov))+" 處重疊"}')
+pp = sum(1 for i in range(len(storage)) for j in range(i+1, len(storage)) if ov(storage[i], storage[j]))
+check(pp == 0, f'棧板彼此不重疊: {"OK" if not pp else str(pp)+" 對重疊"}')
+# 固定物(柱/B01)須畫在最上層:不得有其他物件(棧板)畫在其上(doc order 在後)
+covered = [(f, c) for f in pillars+b01 for c in storage if ov(f, c) and c['idx'] > f['idx']]
+check(len(covered) == 0, f'固定物在最上層(不被棧板蓋): {"OK" if not covered else str(len(covered))+" 處被蓋"}')
+# 外牆:一個約 2640×1800cm(≈2544×1735px)的矩形牆框
+walls = [c for c in cells if c['w'] >= 2400 and c['h'] >= 1500 and gs(c['s'], 'strokeColor', 'none') not in ('none', None)]
+check(len(walls) >= 1, f'外牆邊框(≈2640×1800): {"有" if walls else "缺(需一個包住全部的矩形牆框)"}')
 
 # --- 領料可及性: 每個群組(品項)至少一板臨走道(≥130淨空的一側) ---
 obstacles = storage + pillars + b01
