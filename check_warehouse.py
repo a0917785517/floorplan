@@ -103,6 +103,31 @@ check(len(yels) >= 1, f'領料走道底色 #FFFDE7: {"有" if yels else "缺"}')
 blk = [1 for a in mains+yels for s in storage if ov(a, s)]
 check(len(blk) == 0, f'走道未被棧板擋: {"OK" if not blk else str(len(blk))+" 處被擋"}')
 
+# 線條粗細一致(同類邊框同粗細)
+gsw = set(gs(c['s'], 'strokeWidth', '1') for c in goods)
+psw = set(gs(c['s'], 'strokeWidth', '1') for c in prod)
+check(len(gsw) <= 1 and len(psw) <= 1, f'線條粗細一致: 貨邊框{sorted(gsw)} 成品邊框{sorted(psw)}')
+
+# 牆界=場地 / 牆邊不切物 / 走道不蓋牆框
+if walls:
+    W = walls[0]; wsw = float(gs(W['s'], 'strokeWidth', '1') or 1)
+    inx0, iny0 = W['x']+wsw, W['y']+wsw
+    inx1, iny1 = W['x']+W['w']-wsw, W['y']+W['h']-wsw
+    check(abs(W['w']/PXCM-2640) < 100 and abs(W['h']/PXCM-1800) < 100,
+          f'牆界=場地2640×1800: {W["w"]/PXCM:.0f}×{W["h"]/PXCM:.0f}cm')
+    def straddle(c):
+        inside = (c['x'] >= W['x']-1 and c['x']+c['w'] <= W['x']+W['w']+1 and
+                  c['y'] >= W['y']-1 and c['y']+c['h'] <= W['y']+W['h']+1)
+        outside = (c['x']+c['w'] <= W['x'] or c['x'] >= W['x']+W['w'] or
+                   c['y']+c['h'] <= W['y'] or c['y'] >= W['y']+W['h'])
+        return not (inside or outside)
+    exempt = lambda c: ('門' in c['v'] or '備用' in c['v'] or '外牆' in c['v'] or c is W)
+    cut = [c for c in cells if not exempt(c) and straddle(c)]
+    check(len(cut) == 0, f'牆邊不切物件/空間: {"OK" if not cut else str(len(cut))+" 物件跨牆線 → "+", ".join(sorted(set(x["v"] or "(無名)" for x in cut))[:5])}')
+    inside_full = lambda c: (c['x'] >= inx0-1 and c['x']+c['w'] <= inx1+1 and c['y'] >= iny0-1 and c['y']+c['h'] <= iny1+1)
+    aon = [c for c in mains+yels if not inside_full(c)]
+    check(len(aon) == 0, f'走道不蓋牆框: {"OK" if not aon else str(len(aon))+" 條壓到牆框"}')
+
 # --- 領料可及性: 每個群組(品項)至少一板臨走道(≥130淨空的一側) ---
 obstacles = storage + pillars + b01
 def side_open(p, dx, dy):
