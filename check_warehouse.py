@@ -95,6 +95,13 @@ check(len(covered) == 0, f'固定物在最上層(不被棧板蓋): {"OK" if not 
 # 外牆:一個約 2640×1800cm(≈2544×1735px)的矩形牆框
 walls = [c for c in cells if c['w'] >= 2400 and c['h'] >= 1500 and gs(c['s'], 'strokeColor', 'none') not in ('none', None)]
 check(len(walls) >= 1, f'外牆邊框(≈2640×1800): {"有" if walls else "缺(需一個包住全部的矩形牆框)"}')
+# 走道底色固定(主幹道#E3F2FD / 其他走道#FFFDE7) + 不得被棧板擋
+mains = [c for c in cells if gs(c['s'], 'fillColor') == '#E3F2FD']
+yels  = [c for c in cells if gs(c['s'], 'fillColor') == '#FFFDE7']
+check(len(mains) >= 1, f'主幹道底色 #E3F2FD: {"有" if mains else "缺"}')
+check(len(yels) >= 1, f'領料走道底色 #FFFDE7: {"有" if yels else "缺"}')
+blk = [1 for a in mains+yels for s in storage if ov(a, s)]
+check(len(blk) == 0, f'走道未被棧板擋: {"OK" if not blk else str(len(blk))+" 處被擋"}')
 
 # --- 領料可及性: 每個群組(品項)至少一板臨走道(≥130淨空的一側) ---
 obstacles = storage + pillars + b01
