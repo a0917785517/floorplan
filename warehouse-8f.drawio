@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="warehouse-8f" name="8樓倉庫平面規劃圖">
-    <mxGraphModel dx="2571" dy="3376" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2746" pageHeight="1949" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3535" dy="3912" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2746" pageHeight="1949" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="layer_slide" parent="0" value="平面圖" />
@@ -548,7 +548,7 @@
           <mxGeometry height="102" width="106" x="2308" y="239" as="geometry" />
         </mxCell>
         <mxCell id="p12" parent="layer_slide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;strokeWidth=2;dashed=1;fontSize=11;fontColor=#2E7D32;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="成品預留" vertex="1">
-          <mxGeometry height="102" width="106" x="2414" y="239" as="geometry" />
+          <mxGeometry height="102" width="109" x="2414" y="239" as="geometry" />
         </mxCell>
         <mxCell id="p13" parent="layer_slide" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;strokeWidth=2;dashed=1;fontSize=11;fontColor=#2E7D32;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="成品預留" vertex="1">
           <mxGeometry height="102" width="106" x="2520" y="239" as="geometry" />
@@ -670,7 +670,7 @@
         <mxCell id="lbl_hi" parent="layer_slide" style="text;html=1;fillColor=none;strokeColor=none;fontSize=20;fontStyle=1;fontColor=#C62828;align=center;verticalAlign=middle;" value="▼ 高頻(醫療/包材)近後門" vertex="1">
           <mxGeometry height="34" width="520" x="672" y="1619" as="geometry" />
         </mxCell>
-        <mxCell id="lbl_site" parent="layer_slide" style="text;html=1;fontSize=28;fontStyle=1;align=left;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;fontColor=#0066CC;" value="&lt;font&gt;場地 2640×1800cm｜綠=出入口(前/後門)｜同品項相鄰&lt;span style=&quot;white-space: normal;&quot;&gt;｜現有128板+成品70板=198板全單層可及｜●不滿一板｜柱/B01固定不動&lt;/span&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="lbl_site" parent="layer_slide" style="text;html=1;fontSize=28;fontStyle=1;align=left;verticalAlign=middle;fontFamily=Helvetica;whiteSpace=wrap;fontColor=#0066CC;" value="&lt;font&gt;場地 2640×1800cm｜綠=出入口(前/後門)｜同品項相鄰&lt;span style=&quot;white-space: normal;&quot;&gt;｜現有128板+成品56板=板全單層可及｜●不滿一板｜柱/B01固定不動&lt;/span&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="100" width="1651" x="88" y="-130" as="geometry" />
         </mxCell>
         <mxCell id="s111" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#EEF2F7;strokeColor=#444444;strokeWidth=3;fontSize=29;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="B01(固定)" vertex="1">
