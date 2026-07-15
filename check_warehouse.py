@@ -246,6 +246,25 @@ check(len(unreachable) == 0,
       f'領料可及性: {len(groups)} 群組,無臨走道者 {len(unreachable)}' +
       (f' → {", ".join(unreachable[:8])}' if unreachable else ''))
 
+# --- 8.2: 同一品項的棧板互相至少要有一邊相鄰(不可有孤立棧板) ---
+def edge_adj(a, b):
+    tol = 6
+    yov = min(a['y']+a['h'], b['y']+b['h']) - max(a['y'], b['y']) > 8   # 垂直重疊(供左右相鄰判斷)
+    xov = min(a['x']+a['w'], b['x']+b['w']) - max(a['x'], b['x']) > 8   # 水平重疊(供上下相鄰判斷)
+    h_touch = (abs((a['x']+a['w'])-b['x']) <= tol or abs((b['x']+b['w'])-a['x']) <= tol) and yov
+    v_touch = (abs((a['y']+a['h'])-b['y']) <= tol or abs((b['y']+b['h'])-a['y']) <= tol) and xov
+    return h_touch or v_touch
+lonely = []
+for name, cs in groups.items():
+    if len(cs) < 2:
+        continue
+    for c in cs:
+        if not any(edge_adj(c, o) for o in cs if o is not c):
+            lonely.append(name)
+check(len(lonely) == 0,
+      f'同品項棧板相鄰(不孤立): {len([n for n,cs in groups.items() if len(cs)>=2])} 個多板品項' +
+      ('' if not lonely else f' → {len(lonely)} 板孤立: ' + ', '.join(sorted(set(lonely))[:6])))
+
 # --- 高頻料靠近後門(warning,不擋 commit) ---
 FAST = {'#FFEDD5', '#FCE7F3', '#F3E8FF', '#FDE2E2', '#E5E7EB'}
 warns = []
