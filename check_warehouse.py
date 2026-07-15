@@ -184,6 +184,18 @@ if walls and (back or front):
 else:
     check(len(corr) >= 1, f'倉外走廊: {"有" if corr else "缺"}')
 
+# 8.4: 門在南牆上的精確位置(沿牆量測) — 後門左端距左牆912cm / 前門右端距右牆125cm / 門寬180cm
+if walls:
+    W = walls[0]; wleft = W['x']; wright = W['x'] + W['w']
+    for d in back:
+        w_cm = d['w']/PXCM; left_cm = (d['x']-wleft)/PXCM
+        check(abs(w_cm-180) <= 8, f'後門寬度 = {w_cm:.0f}cm (需 180)')
+        check(abs(left_cm-912) <= 10, f'後門左端距左牆 = {left_cm:.0f}cm (需 912)')
+    for d in front:
+        w_cm = d['w']/PXCM; right_cm = (wright-(d['x']+d['w']))/PXCM
+        check(abs(w_cm-180) <= 8, f'前門寬度 = {w_cm:.0f}cm (需 180)')
+        check(abs(right_cm-125) <= 10, f'前門右端距右牆 = {right_cm:.0f}cm (需 125)')
+
 # 線條粗細一致(同類邊框同粗細)
 gsw = set(gs(c['s'], 'strokeWidth', '1') for c in goods)
 psw = set(gs(c['s'], 'strokeWidth', '1') for c in prod)
