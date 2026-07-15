@@ -40,7 +40,7 @@ for c in root.iter('mxCell'):
 def is_pallet(c): return PAL_MIN <= c['w'] <= PAL_MAX and PAL_MIN <= c['h'] <= 155 and c['fill'] != 'none'
 pillars = [c for c in cells if c['v'] == '柱']
 b01     = [c for c in cells if '固定' in c['v']]
-storage = [c for c in cells if is_pallet(c) and c['v'] not in ('柱',) and '固定' not in c['v'] and '置物' not in c['v']]
+storage = [c for c in cells if is_pallet(c) and c['v'] not in ('柱',) and '固定' not in c['v'] and '置物' not in c['v'] and '備用' not in c['v'] and '前室' not in c['v']]
 goods   = [c for c in storage if c['v'] not in ('', '空', '成品預留')]
 prod    = [c for c in storage if c['v'] == '成品預留']
 
@@ -111,6 +111,15 @@ narrow = [a for a in mains+yels if min(a['w'], a['h']) < AISLE_MIN_PX]
 check(len(narrow) == 0,
       f'所有走道寬度 ≥130cm: {len(mains+yels)} 條' +
       ('' if not narrow else ' → 過窄 ' + ', '.join(f'{min(a["w"],a["h"])/PXCM:.0f}cm' for a in narrow[:6])))
+# 8.3: 所有淡黃領料走道「寬度一致」(視覺一致,避免某條看起來明顯較寬/較窄)
+ybands = [a for a in yels if max(a['w'], a['h']) >= 300]     # 長條走道(排除轉角小段)
+def aisle_thick(a): return a['h'] if a['w'] >= a['h'] else a['w']   # 帶的短向=淨寬
+ths = [aisle_thick(a) for a in ybands]
+uni_ok = (not ths) or (max(ths) - min(ths) <= 12)           # ≤12px(~12cm)視為一致
+check(uni_ok,
+      '淡黃領料走道寬度一致: ' +
+      ('/'.join(sorted({f'{t/PXCM:.0f}' for t in ths})) + 'cm' if ths else '無淡黃帶') +
+      ('' if uni_ok else f' → 不一致(最寬與最窄差 {(max(ths)-min(ths))/PXCM:.0f}cm)'))
 # rule5/8.5: 柱尺寸 72×72cm (≈69px)
 badpil = [p for p in pillars if not (64 <= p['w'] <= 75 and 64 <= p['h'] <= 75)]
 check(len(badpil) == 0,
@@ -159,6 +168,21 @@ if walls and (back or front):
     door_intr = [(d, s) for d in doors for s in storage if ov(approach_rect(d), s)]
     check(len(door_intr) == 0,
           f'門口進出淨空(不放物料): {"OK" if not door_intr else str(len(door_intr))+" 格料擋門口"}')
+
+# 8.4: 倉外走廊(牆外通道) + 前/後門須對走廊開,門的擺放位置才合理
+corr = [c for c in cells if '走廊' in c['v'] or gs(c['s'], 'fillColor') == '#ECEFF1']
+if walls and (back or front):
+    W = walls[0]
+    out_corr = [c for c in corr if (c['y'] >= W['y']+W['h']-4 or c['y']+c['h'] <= W['y']+4 or
+                                     c['x'] >= W['x']+W['w']-4 or c['x']+c['w'] <= W['x']+4)]
+    check(len(out_corr) >= 1,
+          f'倉外走廊(牆外通道): {"有" if out_corr else "缺(需牆外一條走廊供門進出)"}')
+    seg = [c for c in out_corr if gs(c['s'], 'fillColor') == '#ECEFF1']  # 走廊帶(非文字標籤)
+    for d in back + front:
+        on = any(c['x']-6 <= d['cx'] <= c['x']+c['w']+6 for c in seg)
+        check(on, f'{(d["v"] or "門")[:4]}對倉外走廊開: {"OK" if on else "門未對到走廊"}')
+else:
+    check(len(corr) >= 1, f'倉外走廊: {"有" if corr else "缺"}')
 
 # 線條粗細一致(同類邊框同粗細)
 gsw = set(gs(c['s'], 'strokeWidth', '1') for c in goods)
