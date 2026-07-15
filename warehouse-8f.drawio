@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="warehouse-8f" name="8樓倉庫平面規劃圖">
-    <mxGraphModel dx="2580" dy="3252" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2746" pageHeight="1949" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="469" dy="2186" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2746" pageHeight="1949" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="layer_slide" parent="0" value="平面圖" />
@@ -8,7 +8,7 @@
           <mxGeometry height="1735" width="2544" x="80" y="100" as="geometry" />
         </mxCell>
         <mxCell id="L0CdAVE2mQWNu5GzQFKm-3" parent="layer_slide" style="rounded=0;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
-          <mxGeometry height="73" width="836" x="1782.4" y="568" as="geometry" />
+          <mxGeometry height="73" width="836" x="1782.4" y="566" as="geometry" />
         </mxCell>
         <mxCell id="s100" parent="layer_slide" style="whiteSpace=wrap;html=1;rounded=0;fillColor=none;strokeColor=none;fontSize=43;fontColor=#000000;fontFamily=Microsoft JhengHei;fontStyle=1;align=left;verticalAlign=middle;" value="8樓倉庫 平面規劃圖(依7/13盤點板數)" vertex="1">
           <mxGeometry height="57.6" width="2592" x="88" y="-190" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry height="128" width="829" x="957" y="104" as="geometry" />
         </mxCell>
         <mxCell id="ha1_0" parent="layer_slide" style="rounded=0;html=1;fillColor=#FFFDE7;strokeColor=none;" value="" vertex="1">
-          <mxGeometry height="128" width="1878" x="90" y="596" as="geometry" />
+          <mxGeometry height="128" width="1878" x="88.4" y="568" as="geometry" />
         </mxCell>
         <mxCell id="ha2_0" parent="layer_slide" style="rounded=0;html=1;fillColor=#FFFDE7;strokeColor=none;" value="" vertex="1">
           <mxGeometry height="128" width="1878" x="90" y="1042" as="geometry" />
@@ -801,6 +801,17 @@
         </mxCell>
         <mxCell id="JWBEyJwIAV6N4nSZD09r-11" parent="layer_slide" style="rounded=0;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
           <mxGeometry height="73" width="836" x="1783" y="1685" as="geometry" />
+        </mxCell>
+        <mxCell id="JWBEyJwIAV6N4nSZD09r-13" edge="1" parent="layer_slide" source="L0CdAVE2mQWNu5GzQFKm-3" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.569;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.569;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="L0CdAVE2mQWNu5GzQFKm-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2221" y="624" as="sourcePoint" />
+            <mxPoint x="2271" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JWBEyJwIAV6N4nSZD09r-14" connectable="0" parent="JWBEyJwIAV6N4nSZD09r-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span&gt;70 cm&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1206" y="-1" as="geometry">
+            <mxPoint x="-1" y="4" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
