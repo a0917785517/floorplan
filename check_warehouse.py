@@ -102,6 +102,63 @@ check(len(mains) >= 1, f'主幹道底色 #E3F2FD: {"有" if mains else "缺"}')
 check(len(yels) >= 1, f'領料走道底色 #FFFDE7: {"有" if yels else "缺"}')
 blk = [1 for a in mains+yels for s in storage if ov(a, s)]
 check(len(blk) == 0, f'走道未被棧板擋: {"OK" if not blk else str(len(blk))+" 處被擋"}')
+# 8.3/rule4: 走道底色不得與「任一物件」重疊(棧板/柱/B01/門),避免視覺誤差變窄
+aisle_obst = storage + pillars + b01 + back + front
+aov = [(a, o) for a in mains+yels for o in aisle_obst if ov(a, o)]
+check(len(aov) == 0, f'走道不與任一物件重疊(柱/B01/門/棧板): {"OK" if not aov else str(len(aov))+" 處重疊"}')
+# rule3/8.3: 每一條走道(含最靠門側牆者)短邊淨寬 ≥130cm
+narrow = [a for a in mains+yels if min(a['w'], a['h']) < AISLE_MIN_PX]
+check(len(narrow) == 0,
+      f'所有走道寬度 ≥130cm: {len(mains+yels)} 條' +
+      ('' if not narrow else ' → 過窄 ' + ', '.join(f'{min(a["w"],a["h"])/PXCM:.0f}cm' for a in narrow[:6])))
+# rule5/8.5: 柱尺寸 72×72cm (≈69px)
+badpil = [p for p in pillars if not (64 <= p['w'] <= 75 and 64 <= p['h'] <= 75)]
+check(len(badpil) == 0,
+      f'柱尺寸 72×72cm(≈69px): {len(pillars)} 根' +
+      ('' if not badpil else ' → 異常 ' + ', '.join(f'{p["w"]/PXCM:.0f}×{p["h"]/PXCM:.0f}' for p in badpil[:5])))
+# rule1/8.5: 靠門側牆的柱要貼牆並朝內凸(近門側牆的柱其外緣須切齊牆內側)
+# rule2/8.4: 前/後門進出位置(門正對倉庫內側區域)不放物料
+if walls and (back or front):
+    W = walls[0]; wsw2 = float(gs(W['s'], 'strokeWidth', '1') or 1)
+    edges = {  # 牆四邊內側座標
+        'N': W['y'] + wsw2, 'S': W['y'] + W['h'] - wsw2,
+        'Wt': W['x'] + wsw2, 'E': W['x'] + W['w'] - wsw2,
+    }
+    APPROACH = 150  # 門前淨空作業區深度(px)≈155cm
+    def door_wall(d):  # 門所在牆(離門最近的一邊)
+        dcx, dcy = d['cx'], d['cy']
+        cand = {'N': abs(dcy-edges['N']), 'S': abs(dcy-edges['S']),
+                'Wt': abs(dcx-edges['Wt']), 'E': abs(dcx-edges['E'])}
+        return min(cand, key=cand.get)
+    doors = back + front
+    door_walls = set(door_wall(d) for d in doors)
+    # rule1: door-side 牆上的柱貼牆(該側外緣與牆內側距離 ≤ 12px)
+    flush_fail = []
+    for side in door_walls:
+        for p in pillars:
+            near = False; gap = None
+            if side == 'S' and abs((p['y']+p['h']) - edges['S']) < 200 and p['cy'] > (W['y']+W['h']/2):
+                near = True; gap = abs((p['y']+p['h']) - edges['S'])
+            elif side == 'N' and abs(p['y'] - edges['N']) < 200 and p['cy'] < (W['y']+W['h']/2):
+                near = True; gap = abs(p['y'] - edges['N'])
+            elif side == 'Wt' and abs(p['x'] - edges['Wt']) < 200 and p['cx'] < (W['x']+W['w']/2):
+                near = True; gap = abs(p['x'] - edges['Wt'])
+            elif side == 'E' and abs((p['x']+p['w']) - edges['E']) < 200 and p['cx'] > (W['x']+W['w']/2):
+                near = True; gap = abs((p['x']+p['w']) - edges['E'])
+            if near and gap is not None and gap > 12:
+                flush_fail.append((p, side, gap))
+    check(len(flush_fail) == 0,
+          f'門側牆柱貼牆朝內凸: {"OK" if not flush_fail else str(len(flush_fail))+" 根未貼牆(離牆 "+", ".join(f"{g/PXCM:.0f}cm" for _,_,g in flush_fail[:4])+")"}')
+    # rule2: 每個(使用中)門正對倉庫內側 APPROACH 深度不得有物料
+    def approach_rect(d):
+        side = door_wall(d)
+        if side == 'S':   return dict(x=d['x'], y=d['y']-APPROACH, w=d['w'], h=APPROACH)
+        if side == 'N':   return dict(x=d['x'], y=d['y']+d['h'], w=d['w'], h=APPROACH)
+        if side == 'Wt':  return dict(x=d['x']+d['w'], y=d['y'], w=APPROACH, h=d['h'])
+        return dict(x=d['x']-APPROACH, y=d['y'], w=APPROACH, h=d['h'])
+    door_intr = [(d, s) for d in doors for s in storage if ov(approach_rect(d), s)]
+    check(len(door_intr) == 0,
+          f'門口進出淨空(不放物料): {"OK" if not door_intr else str(len(door_intr))+" 格料擋門口"}')
 
 # 線條粗細一致(同類邊框同粗細)
 gsw = set(gs(c['s'], 'strokeWidth', '1') for c in goods)
