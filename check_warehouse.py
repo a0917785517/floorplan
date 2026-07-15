@@ -196,6 +196,51 @@ if walls:
         check(abs(w_cm-180) <= 8, f'前門寬度 = {w_cm:.0f}cm (需 180)')
         check(abs(right_cm-125) <= 10, f'前門右端距右牆 = {right_cm:.0f}cm (需 125)')
 
+# --- 物件尺寸把關 -----------------------------------------------------------
+# 已確認尺寸的物件用實際規格;尚未由使用者確認實際尺寸者標「暫定」,以目前畫布值防止誤移。
+# 待使用者提供真實 cm 後,更新下方 EXPECT_* 與 CLAUDE.md 註記即可。
+def near(v, tgt, tol): return abs(v-tgt) <= tol
+# 棧板 / 成品格:110×110cm 正方形(≈106×106px)
+sq_bad = [c for c in storage if not (near(c['w'], 106, 6) and near(c['h'], 106, 6))]
+check(len(sq_bad) == 0,
+      f'棧板/成品 正方形110×110cm(≈106px): {len(storage)} 格,異常 {len(sq_bad)}' +
+      ('' if not sq_bad else ' → ' + ', '.join(f'{c["w"]/PXCM:.0f}×{c["h"]/PXCM:.0f}' for c in sq_bad[:4])))
+# 備用箱(牆外):110×110cm
+box = [c for c in cells if '備用' in c['v']]
+box_bad = [c for c in box if not (near(c['w'], 106, 8) and near(c['h'], 106, 8))]
+check(len(box) >= 1 and not box_bad,
+      f'備用箱尺寸 110×110cm: {len(box)} 個' + ('' if not box_bad else ' → 異常'))
+# B01(固定):暫定 ≈898×289cm(866×278px) — 待確認實際尺寸
+EXPECT_B01 = (866, 278)   # px,暫定值(待使用者確認)
+b01_bad = [c for c in b01 if not (near(c['w'], EXPECT_B01[0], 25) and near(c['h'], EXPECT_B01[1], 25))]
+check(len(b01) >= 1 and not b01_bad,
+      f'B01尺寸【暫定≈898×289cm,待確認】: ' +
+      (', '.join(f'{c["w"]/PXCM:.0f}×{c["h"]/PXCM:.0f}cm' for c in b01) if b01 else '缺'))
+# 置物架:暫定 ≈70×149cm(67×144px) — 待確認實際尺寸
+shelf = [c for c in cells if '置物' in c['v']]
+EXPECT_SHELF = (67, 144)  # px,暫定值(待使用者確認)
+shelf_bad = [c for c in shelf if not (near(c['w'], EXPECT_SHELF[0], 15) and near(c['h'], EXPECT_SHELF[1], 20))]
+check(len(shelf) >= 1 and not shelf_bad,
+      f'置物架尺寸【暫定≈70×149cm,待確認】: ' +
+      (', '.join(f'{c["w"]/PXCM:.0f}×{c["h"]/PXCM:.0f}cm' for c in shelf) if shelf else '缺'))
+# 倉外走廊:淨寬 ≥130cm(與領料走道同寬 ≈133cm)
+corr_seg = [c for c in cells if gs(c['s'], 'fillColor') == '#ECEFF1' and max(c['w'], c['h']) >= 300]
+cwid = [min(c['w'], c['h']) for c in corr_seg]
+check(bool(cwid) and min(cwid) >= AISLE_MIN_PX,
+      f'走廊淨寬 ≥130cm: {min(cwid)/PXCM:.0f}cm' if cwid else '走廊: 缺淨寬')
+# 外牆厚度:暫定 ≈8cm(牆框線寬 8px) — 待確認實際牆厚
+if walls:
+    wsw = float(gs(walls[0]['s'], 'strokeWidth', '1') or 1)
+    check(6 <= wsw <= 12, f'外牆厚度【暫定≈{wsw/PXCM:.0f}cm,待確認】: 線寬 {wsw:.0f}px')
+# 門厚(門在牆上占的深度方向):暫定 ≈44cm(42px) — 待確認
+door_h_bad = [d for d in back+front if not near(d['h'], 42, 12)]
+check(not door_h_bad, f'門厚【暫定≈44cm,待確認】: ' +
+      (', '.join(f'{d["h"]/PXCM:.0f}cm' for d in back+front) if (back+front) else '無門'))
+# ● 不滿一板標記:尺寸一致(暫定 ≈19cm/18px) — 待確認
+dots = [c for c in cells if 'ellipse' in c['s']]
+dot_w = sorted(set(round(c['w']) for c in dots))
+check(len(dot_w) <= 1, f'● 標記尺寸一致【暫定≈19cm,待確認】: {len(dots)} 個 {dot_w}px')
+
 # 線條粗細一致(同類邊框同粗細)
 gsw = set(gs(c['s'], 'strokeWidth', '1') for c in goods)
 psw = set(gs(c['s'], 'strokeWidth', '1') for c in prod)
