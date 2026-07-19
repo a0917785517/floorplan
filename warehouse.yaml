@@ -1,0 +1,136 @@
+# warehouse.yaml — 倉庫平面圖「單一事實來源」。
+# 流程:改本檔 → python3 generate.py → python3 validate.py → draw.io 開檔驗收。
+# 尺寸以 cm 表達人所想、以 px 釘死繪圖錨點。座標系:x右 y下,原點左上。
+
+meta:
+  pxcm_num: 106      # 1 棧板 110cm = 106px → 106/110 精確比,避免浮點漂移
+  pxcm_den: 110
+
+site: {width_cm: 2640, height_cm: 1800}   # 場地=牆界,內容不得超出
+
+wall:  {x_px: 80, y_px: 100, w_px: 2544, h_px: 1735, stroke_px: 8}  # 外牆厚≈8cm〔待確認〕
+
+pallet: {w_px: 106, h_px: 106}            # 正方形 110×110cm
+marker: {size_px: 18}                     # ● 不滿一板 ≈19cm〔待確認〕
+
+aisles:
+  pick_width_px: 128       # 所有淡黃領料走道「統一」淨寬 ≈133cm(≥130)
+  pick_fill: '#FFFDE7'
+  extents_px:              # 各水平走道左右範圍(ha0 跨成品區,其餘止於貨區)
+    ha0: {x0: 90, x1: 2610}
+    ha1: {x0: 90, x1: 1968}
+    ha2: {x0: 90, x1: 1968}
+    ha3: {x0: 90, x1: 1968}
+  main:                    # 中央主幹道(藍,淨空,勿排料)
+    x0_px: 938
+    x1_px: 1068
+    y_px: 440
+    h_px: 1315
+    fill: '#E3F2FD'
+    stroke: '#1565C0'
+    label: '主幹道 (淨空・勿排料)'
+
+layout:
+  top_margin_px: 150       # ha0 頂端 y;整個垂直堆疊由此錨定並「反算」所有 y
+  stack:                   # 宣告式:走道/貨帶 交替;改 pick_width_px 或帶列數會整體重排
+    - {aisle: ha0}
+    - {band: b0, rows: 3}
+    - {aisle: ha1}
+    - {band: b1, rows: 3}
+    - {aisle: ha2}
+    - {band: b2, rows: 4}   # b2+b3 連續 4 深
+    - {aisle: ha3}
+
+goods_columns:
+  left:  {start_x_px: 90,   count: 8, pitch_px: 106}
+  right: {start_x_px: 1120, count: 8, pitch_px: 106}   # 起於 B01 右緣之後
+
+finished:                  # 成品預留區(右)
+  columns: {start_x_px: 1978, count: 6, pitch_px: 106}
+  first_row_y_px: 278
+  row_pitch_px: 106
+  rows_max: 13
+  target_boards: 70
+  fill: '#E8F5E9'
+  stroke: '#43A047'
+  label: '成品預留'
+
+doors:                     # 南牆;位置沿牆量測(cm→px 反算)
+  y_px: 1786
+  depth_px: 42             # 門厚≈44cm〔待確認〕
+  approach_px: 150         # 門前淨空作業區深度≈155cm〔待確認〕
+  fill: '#C8E6C9'
+  stroke: '#2E7D32'
+  back:  {label: '後門(鐵捲門)180', width_cm: 180, from_left_cm: 912,  used: true}
+  front: {label: '前門(不使用)',    width_cm: 180, from_right_cm: 125, used: false}
+
+corridor:                  # 倉外走廊(南牆外通道),繞開備用箱
+  x0_px: 90
+  x1_px: 2610
+  y_px: 1843
+  h_px: 128
+  fill: '#ECEFF1'
+  stroke: '#607D8B'
+  label: '走廊（倉外通道）'
+  notch_around: [spare]
+
+fixed_objects:             # 座標不可更動(px);class 用於擋料/z-order/走廊繞開
+  - {id: B01,   label: 'B01固定', x: 85, y: 131, w: 866, h: 278, cls: obstacle}   # ≈898×289cm〔待確認〕
+  - {id: shelf, label: '置物架',  x: 1285, y: 765, w: 67, h: 144, cls: obstacle}   # ≈70×149cm〔待確認〕
+  - {id: p1, label: '柱', x: 2057, y: 667, w: 69, h: 69, cls: pillar}   # 72×72cm
+  - {id: p2, label: '柱', x: 2057, y: 1022, w: 69, h: 69, cls: pillar}   # 72×72cm
+  - {id: p3, label: '柱', x: 403, y: 1758, w: 69, h: 69, cls: pillar}   # 72×72cm
+  - {id: p4, label: '柱', x: 1239, y: 1758, w: 69, h: 69, cls: pillar}   # 72×72cm
+  - {id: p5, label: '柱', x: 2057, y: 1758, w: 69, h: 69, cls: pillar}   # 72×72cm
+  - {id: box1, label: '備用藍箱', x: 2299, y: 1845, w: 106, h: 106, cls: spare, outside: true}  # 110×110cm 牆外
+  - {id: box2, label: '備用綠箱', x: 2453, y: 1845, w: 106, h: 106, cls: spare, outside: true}  # 110×110cm 牆外
+
+products:                  # 45 個 SKU — 數量/顏色/●數的唯一放置處(Σcount=128, Σpartial=33)
+  order_fast_first: true   # 高頻(fast_fills)先排、靠近後門
+  fast_fills: ['#FFEDD5', '#FCE7F3', '#F3E8FF', '#FDE2E2', '#E5E7EB']
+  items:
+    - {name: 'MB20270', count: 8, fill: '#DCFCE7', partial: 1}
+    - {name: 'EP16270', count: 6, fill: '#DBEAFE', partial: 1}
+    - {name: '極簡灰270', count: 6, fill: '#FFFFFF', partial: 1}
+    - {name: '耳帶(混色)', count: 6, fill: '#F3E8FF', partial: 0}
+    - {name: 'EP16300', count: 5, fill: '#DBEAFE', partial: 0}
+    - {name: '淺杏270*', count: 5, fill: '#FFFFFF', partial: 2}
+    - {name: '醫療30入彩盒', count: 5, fill: '#FFEDD5', partial: 0}
+    - {name: 'EP30上登300', count: 4, fill: '#DBEAFE', partial: 0}
+    - {name: 'EP30嘉谷270', count: 4, fill: '#DBEAFE', partial: 1}
+    - {name: 'MB20兆羿270', count: 4, fill: '#DCFCE7', partial: 0}
+    - {name: '淺杏灰270', count: 4, fill: '#FFFFFF', partial: 1}
+    - {name: '白格270', count: 4, fill: '#FFFFFF', partial: 1}
+    - {name: '粉膚紅270', count: 4, fill: '#FFFFFF', partial: 1}
+    - {name: '粉蝦270', count: 4, fill: '#FFFFFF', partial: 1}
+    - {name: '冰川灰270', count: 3, fill: '#FFFFFF', partial: 1}
+    - {name: '奶茶270', count: 3, fill: '#FFFFFF', partial: 1}
+    - {name: '寂灰270*', count: 3, fill: '#FFFFFF', partial: 1}
+    - {name: '杏色270', count: 3, fill: '#FFFFFF', partial: 1}
+    - {name: '淺灰色270', count: 3, fill: '#FFFFFF', partial: 1}
+    - {name: '膚白270', count: 3, fill: '#FFFFFF', partial: 1}
+    - {name: '象牙灰270', count: 3, fill: '#FFFFFF', partial: 1}
+    - {name: '黑格270', count: 3, fill: '#FFFFFF', partial: 1}
+    - {name: '黑灰色270', count: 3, fill: '#FFFFFF', partial: 1}
+    - {name: '鼻樑壓條', count: 3, fill: '#FDE2E2', partial: 1}
+    - {name: 'EP30嘉谷300', count: 2, fill: '#DBEAFE', partial: 0}
+    - {name: '冰川灰300', count: 2, fill: '#FFFFFF', partial: 1}
+    - {name: '奶油白270', count: 2, fill: '#FFFFFF', partial: 0}
+    - {name: '奶油白300', count: 2, fill: '#FFFFFF', partial: 1}
+    - {name: '活性碳270', count: 2, fill: '#E5E7EB', partial: 1}
+    - {name: '白泡270', count: 2, fill: '#FFFFFF', partial: 0}
+    - {name: '醫療10入開窗彩盒', count: 2, fill: '#FFEDD5', partial: 0}
+    - {name: '醫療TN95包裝膜', count: 2, fill: '#FCE7F3', partial: 0}
+    - {name: 'PM2.530入彩盒', count: 1, fill: '#FFEDD5', partial: 0}
+    - {name: '一般30入彩盒', count: 1, fill: '#FFEDD5', partial: 0}
+    - {name: '墨綠270', count: 1, fill: '#FFFFFF', partial: 1}
+    - {name: '活性碳300', count: 1, fill: '#E5E7EB', partial: 1}
+    - {name: '淺暗藍270', count: 1, fill: '#FFFFFF', partial: 1}
+    - {name: '淺水綠270', count: 1, fill: '#FFFFFF', partial: 1}
+    - {name: '灰綠270', count: 1, fill: '#FFFFFF', partial: 1}
+    - {name: '灰藍270', count: 1, fill: '#FFFFFF', partial: 1}
+    - {name: '粉色270', count: 1, fill: '#FFFFFF', partial: 0}
+    - {name: '粉芝270', count: 1, fill: '#FFFFFF', partial: 1}
+    - {name: '藍芝270*', count: 1, fill: '#FFFFFF', partial: 1}
+    - {name: '高藍270', count: 1, fill: '#FFFFFF', partial: 1}
+    - {name: '黑泡270', count: 1, fill: '#FFFFFF', partial: 1}
