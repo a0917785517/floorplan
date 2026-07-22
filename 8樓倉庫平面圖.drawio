@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="OurENMErpcKE3oFuTzdo">
-    <mxGraphModel dx="3184" dy="1308" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="981" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -431,7 +431,7 @@
           <mxGeometry height="106" width="106" as="geometry" />
         </mxCell>
         <mxCell id="RX3-RtjsDJpTgorvrfhd-19" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="106" width="636" x="2263" y="609" as="geometry" />
+          <mxGeometry height="106" width="636" x="2263" y="608" as="geometry" />
         </mxCell>
         <mxCell id="RX3-RtjsDJpTgorvrfhd-20" parent="RX3-RtjsDJpTgorvrfhd-19" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;strokeWidth=2;dashed=1;fontSize=16;fontColor=#2E7D32;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="成品預留" vertex="1">
           <mxGeometry height="106" width="106" x="425" as="geometry" />
