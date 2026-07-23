@@ -1,9 +1,53 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第1頁" id="48z8HdgLGxrsWfIc8gWS">
-    <mxGraphModel>
+    <mxGraphModel dx="1414" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=94.66666666666652;container=0;" value="" vertex="1">
+          <mxGeometry height="64.3" width="461" x="172" y="181" as="geometry" />
+        </mxCell>
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;HAOFA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="187.23906250000002" width="364.5811965811966" x="172" y="245.30093750000003" as="geometry" />
+        </mxCell>
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=64.59999999999991;flipH=1;legacyAnchorPoints=0;direction=south;container=0;" value="" vertex="1">
+          <mxGeometry height="250.13" width="94.42" x="536.5799999999999" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="入庫裝箱明細" vertex="1">
+          <mxGeometry height="143.43218750000003" width="116.42575498575498" x="410.8148148148148" y="253.77968750000002" as="geometry" />
+        </mxCell>
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-5" edge="1" parent="1" source="yeV_Cr4i5HP0k-jVlCyE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="yeV_Cr4i5HP0k-jVlCyE-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="306" y="167.14" />
+              <mxPoint x="306" y="167.14" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=26.000000000000455;container=0;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="17.43" width="134.71" x="244.28999999999996" y="187.57" as="geometry" />
+        </mxCell>
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=25.000000000000455;container=0;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="17.43" width="134.71" x="368" y="187.57" as="geometry" />
+        </mxCell>
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-8" parent="1" style="whiteSpace=wrap;html=1;dashed=1;" value="物流單" vertex="1">
+          <mxGeometry height="34" width="67.99" x="271.99999999999955" y="119.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-9" edge="1" parent="1" source="yeV_Cr4i5HP0k-jVlCyE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="436.98" y="182.83999999999997" />
+              <mxPoint x="436.98" y="182.83999999999997" />
+            </Array>
+            <mxPoint x="436.9714285714281" y="187.56999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-10" parent="1" style="whiteSpace=wrap;html=1;dashed=1;" value="信封入庫通知書(平行封口)" vertex="1">
+          <mxGeometry height="41" width="91" x="396" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="yeV_Cr4i5HP0k-jVlCyE-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;" value="MOMO" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
