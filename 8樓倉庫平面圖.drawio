@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="OurENMErpcKE3oFuTzdo">
-    <mxGraphModel dx="2357" dy="1308" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1885" dy="1047" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,12 +9,6 @@
         </mxCell>
         <mxCell id="RrKEw08IsvD9RZnVC8i--2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=none;strokeColor=none;fontSize=43;fontColor=#000000;fontFamily=Microsoft JhengHei;fontStyle=1;align=left;verticalAlign=middle;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="8樓倉庫 平面規劃圖(依7/13盤點板數)" vertex="1">
           <mxGeometry height="57.6" width="2592" x="360" y="200" as="geometry" />
-        </mxCell>
-        <mxCell id="RrKEw08IsvD9RZnVC8i--3" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=1;fontSize=16;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="備用&lt;br&gt;藍箱" vertex="1">
-          <mxGeometry height="105.6" width="105.6" x="2559.2000000000003" y="2066.8" as="geometry" />
-        </mxCell>
-        <mxCell id="RrKEw08IsvD9RZnVC8i--4" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=1;fontSize=16;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="備用&lt;br&gt;綠箱" vertex="1">
-          <mxGeometry height="105.6" width="105.6" x="2712.8" y="2066.8" as="geometry" />
         </mxCell>
         <mxCell id="RrKEw08IsvD9RZnVC8i--5" edge="1" parent="1" style="endArrow=none;startArrow=none;html=1;strokeColor=#2E7D32;strokeWidth=5;dashed=1;fontSize=16;">
           <mxGeometry relative="1" as="geometry">
@@ -482,7 +476,7 @@
           <mxGeometry height="68" width="637" x="2263" y="1837" as="geometry" />
         </mxCell>
         <mxCell id="RX3-RtjsDJpTgorvrfhd-66" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="106" width="636" x="2264" y="1450" as="geometry" />
+          <mxGeometry height="177.60000000000022" width="636.6" x="2264" y="1450" as="geometry" />
         </mxCell>
         <mxCell id="RX3-RtjsDJpTgorvrfhd-67" parent="RX3-RtjsDJpTgorvrfhd-66" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#43A047;strokeWidth=2;dashed=1;fontSize=16;fontColor=#2E7D32;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="成品預留" vertex="1">
           <mxGeometry height="106" width="106" x="425" as="geometry" />
@@ -1100,6 +1094,12 @@
         </mxCell>
         <mxCell id="kMcDjxNdaFppjuNyLv2--128" parent="kMcDjxNdaFppjuNyLv2--122" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#444;strokeWidth=1;fontSize=16;fontColor=#000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;rotation=360;" value="耳帶(混色)" vertex="1">
           <mxGeometry height="106" width="106" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="RrKEw08IsvD9RZnVC8i--4" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=1;fontSize=16;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="備用&lt;br&gt;綠箱" vertex="1">
+          <mxGeometry height="71.6" width="71.6" x="2544.2" y="2089" as="geometry" />
+        </mxCell>
+        <mxCell id="kMcDjxNdaFppjuNyLv2--129" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=1;fontSize=16;fontColor=#000000;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;" value="備用&lt;br&gt;藍箱" vertex="1">
+          <mxGeometry height="71.6" width="71.6" x="2770" y="2089" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
