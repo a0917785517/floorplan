@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="第 1 页" id="OurENMErpcKE3oFuTzdo">
-    <mxGraphModel dx="2828" dy="1570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="1303" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1009,50 +1009,6 @@
         <mxCell id="RrKEw08IsvD9RZnVC8i--9" parent="1" style="rounded=0;html=1;fillColor=#FFFDE7;strokeColor=none;fontSize=16;" value="" vertex="1">
           <mxGeometry height="128" width="744" x="1417" y="1666" as="geometry" />
         </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--96" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=94.66666666666652;container=0;" value="" vertex="1">
-          <mxGeometry height="64.3" width="461" x="3522" y="161" as="geometry" />
-        </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;HAOFA&lt;/font&gt;" vertex="1">
-          <mxGeometry height="187.23906250000002" width="364.5811965811966" x="3522" y="225.30093750000003" as="geometry" />
-        </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--107" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=64.59999999999991;flipH=1;legacyAnchorPoints=0;direction=south;container=0;" value="" vertex="1">
-          <mxGeometry height="250.13" width="94.42" x="3886.58" y="162" as="geometry" />
-        </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--108" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="入庫裝箱明細" vertex="1">
-          <mxGeometry height="143.43218750000003" width="116.42575498575498" x="3760.814814814815" y="233.77968750000002" as="geometry" />
-        </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--115" edge="1" parent="1" source="kMcDjxNdaFppjuNyLv2--111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="kMcDjxNdaFppjuNyLv2--114" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3656" y="147.14" />
-              <mxPoint x="3656" y="147.14" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--111" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=26.000000000000455;container=0;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="17.43" width="134.71" x="3594.29" y="167.57" as="geometry" />
-        </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--112" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=25.000000000000455;container=0;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="17.43" width="134.71" x="3718" y="167.57" as="geometry" />
-        </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--114" parent="1" style="whiteSpace=wrap;html=1;dashed=1;" value="物流單" vertex="1">
-          <mxGeometry height="34" width="67.99" x="3621.9999999999995" y="99.5" as="geometry" />
-        </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--117" edge="1" parent="1" source="kMcDjxNdaFppjuNyLv2--116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3786.98" y="162.83999999999997" />
-              <mxPoint x="3786.98" y="162.83999999999997" />
-            </Array>
-            <mxPoint x="3786.971428571428" y="167.56999999999994" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--116" parent="1" style="whiteSpace=wrap;html=1;dashed=1;" value="信封入庫通知書(平行封口)" vertex="1">
-          <mxGeometry height="41" width="91" x="3746" y="96" as="geometry" />
-        </mxCell>
-        <mxCell id="kMcDjxNdaFppjuNyLv2--119" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;" value="MOMO" vertex="1">
-          <mxGeometry height="60" width="120" x="3372" y="68" as="geometry" />
-        </mxCell>
         <mxCell id="kMcDjxNdaFppjuNyLv2--121" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="636" width="106" x="1329.12" y="1178.12" as="geometry" />
         </mxCell>
@@ -1295,6 +1251,58 @@
         </mxCell>
         <mxCell id="kMcDjxNdaFppjuNyLv2--211" parent="kMcDjxNdaFppjuNyLv2--220" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;fontFamily=Microsoft JhengHei;align=center;verticalAlign=middle;rotation=90;container=0;" value="&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="109.42210834553445" width="109.43745863666453" x="871.3699536730655" y="487.23806734992735" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KE0sU1KxaFImAPYE7G_o" name="第2頁">
+    <mxGraphModel dx="1384" dy="1117" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=94.66666666666652;container=0;" value="" vertex="1">
+          <mxGeometry height="64.3" width="461" x="1050" y="493" as="geometry" />
+        </mxCell>
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;HAOFA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="187.23906250000002" width="364.5811965811966" x="1050" y="557.3009375" as="geometry" />
+        </mxCell>
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=64.59999999999991;flipH=1;legacyAnchorPoints=0;direction=south;container=0;" value="" vertex="1">
+          <mxGeometry height="250.13" width="94.42" x="1414.58" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="入庫裝箱明細" vertex="1">
+          <mxGeometry height="143.43218750000003" width="116.42575498575498" x="1288.8148148148148" y="565.7796875" as="geometry" />
+        </mxCell>
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-5" edge="1" parent="1" source="DId7E_TYmbZ_uypC_2uN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="DId7E_TYmbZ_uypC_2uN-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1184" y="479.14" />
+              <mxPoint x="1184" y="479.14" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=26.000000000000455;container=0;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="17.43" width="134.71" x="1122.29" y="499.57" as="geometry" />
+        </mxCell>
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=25.000000000000455;container=0;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="17.43" width="134.71" x="1246" y="499.57" as="geometry" />
+        </mxCell>
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-8" parent="1" style="whiteSpace=wrap;html=1;dashed=1;" value="物流單" vertex="1">
+          <mxGeometry height="34" width="67.99" x="1149.9999999999995" y="431.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-9" edge="1" parent="1" source="DId7E_TYmbZ_uypC_2uN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1314.98" y="494.84" />
+              <mxPoint x="1314.98" y="494.84" />
+            </Array>
+            <mxPoint x="1314.971428571428" y="499.56999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-10" parent="1" style="whiteSpace=wrap;html=1;dashed=1;" value="信封入庫通知書(平行封口)" vertex="1">
+          <mxGeometry height="41" width="91" x="1274" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="DId7E_TYmbZ_uypC_2uN-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;" value="MOMO" vertex="1">
+          <mxGeometry height="60" width="120" x="900" y="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
